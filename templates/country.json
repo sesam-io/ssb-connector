@@ -1,11 +1,11 @@
 {
-  "_id": "{{@ system @}}-{{@ datatype @}}-collect",
+  "_id": "{{@ system @}}-country-collect",
   "namespaced_identifiers": false,
   "pump": {
     "cron_expression": "0 6 * * ?"
   },
   "source": {
-    "operation": "{{@ datatype @}}-list",
+    "operation": "country-list",
     "system": "{{@ system @}}",
     "type": "rest"
   },
