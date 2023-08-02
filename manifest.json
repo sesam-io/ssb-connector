@@ -1,0 +1,9 @@
+{
+  "additional_parameters": {},
+  "datatypes": {
+    "country": {
+      "template": "templates/country.json"
+    }
+  },
+  "system-template": "templates/system.json"
+}

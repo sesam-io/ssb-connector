@@ -1,0 +1,17 @@
+{
+  "_id": "{{@ system @}}",
+  "json_content_types": [
+    "application/hal+json"
+  ],
+  "operations": {
+    "country-list": {
+      "id_expression": "{{ code }}",
+      "method": "GET",
+      "payload_property": "classificationItems",
+      "url": "versions/1836"
+    }
+  },
+  "type": "system:rest",
+  "url_pattern": "http://data.ssb.no/api/klass/v1/%s",
+  "verify_ssl": true
+}
